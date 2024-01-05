@@ -6,6 +6,7 @@ body{
 nav{
    display: flex;
    justify-content: space-between;
+   margin: 0 200px;
 }
 .nav-title{
   font-size: 45px;
@@ -37,4 +38,19 @@ nav a{
   font-weight: 700;
   padding: 15px 35px;
 
+}
+
+/* header related styles*/
+.header{
+  background-color: #f7f0e7;
+}
+
+.banner{ 
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
+  border-radius: 20px;
 }
